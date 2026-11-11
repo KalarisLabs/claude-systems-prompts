@@ -25,30 +25,34 @@
 
 *All official Claude system prompts for claude.ai, the Claude iOS app, and the Claude Android app, plus original analysis of how Claude is engineered to think, refuse, write, and use tools.*
 
-[Models at a Glance](#models-at-a-glance) | [Who Is This For?](#who-is-this-for) | [Key Revelations](#key-revelations) | [Full Fable 5 Prompt](system-prompt/full-system-prompt.md) | [Analysis](system-prompt/analysis/key-findings.md) | [Highlights](highlights/surprising-revelations.md)
+[Models at a Glance](#models-at-a-glance) | [Who This Is For](#who-this-is-for) | [Key Revelations](#key-revelations) | [Full Fable 5 Prompt](system-prompt/full-system-prompt.md) | [Analysis](system-prompt/analysis/key-findings.md) | [Highlights](highlights/surprising-revelations.md)
 
 </div>
 
 ---
 
-## What Is This?
+## The Prompts Are Public. Almost Nobody Reads Them.
 
-**Claude System Prompts** is the open-source home for every system prompt Anthropic publishes for its consumer Claude products. This repository archives **23 official Claude system prompts**: the full lineup, from Anthropic's newest Mythos-class models (**Claude Fable 5.2**) back to **Claude Haiku 3**. Every prompt is copied verbatim from [Anthropic's official release notes](https://platform.claude.com/docs/en/release-notes/system-prompts/overview), dated, and source-linked.
+Anthropic publishes Claude's system prompts on its own release notes pages. Twenty-three models worth, hiding in plain sight. And almost nobody reads them.
 
-A system prompt is the instruction layer that shapes how an AI model behaves before you type anything. It encodes refusal policy, tone, formatting, tool use, safety architecture, and model-specific caveats. Anthropic now publishes these prompts for claude.ai and the Claude mobile apps. This repo collects all of them in one place, alongside original research, analysis, and tooling.
+That should bother you. The system prompt decides what Claude refuses, how it formats your answer, when it searches the web, what it makes of your legal questions, and how it responds to a mental health crisis. It is the most underrated document in AI right now, and it is free to read.
 
-**What's inside:**
+This repo archives all of it. Every official prompt Anthropic ships for claude.ai and the Claude mobile apps, copied verbatim with dates and source links: Claude Fable 5.2 (November 9, 2026) back to Claude Haiku 3 (July 12, 2024). No paraphrase. No summaries. No "reportedly."
+
+**What is inside:**
 
 - **[`models/`](models/README.md)**: all 23 official system prompts, verbatim, with latest version dates, full version history per model, and direct links to the source page for every release
-- **[`system-prompt/`](system-prompt/full-system-prompt.md)**: deep dive on the flagship, the complete ~1,580-line Claude Fable 5 system prompt, tool definitions, and multi-part analysis
+- **[`system-prompt/`](system-prompt/full-system-prompt.md)**: deep dive on the flagship: the complete ~1,580-line Claude Fable 5 system prompt, tool definitions, and multi-part analysis
 - **[`highlights/`](highlights/surprising-revelations.md)**: the most surprising findings across the Claude prompt family
 - **[`scripts/`](scripts/verify_signatures.py)**: integrity verification for the archive's curation chain
 
-**Coverage:** 23 models, 50 published prompt versions referenced, July 2024 to November 2026, 100% verbatim from official Anthropic sources.
+**Coverage:** 23 models. 50 published prompt versions referenced. July 2024 to November 2026. 100% verbatim from Anthropic's own pages.
 
 ---
 
 ## Models at a Glance
+
+All 23 official prompts, sorted by family and date. If a prompt is not on this table, it has not been published.
 
 Every archived prompt lives at `models/<model>/system-prompt.md`. Each file carries its latest version date, lists every version Anthropic has published on that model's page (newest first), and links the canonical source. See the full index with per-model version history in **[models/README.md](models/README.md)**.
 
@@ -82,33 +86,33 @@ Every archived prompt lives at `models/<model>/system-prompt.md`. Each file carr
 
 ---
 
-## Who Is This For?
+## Who This Is For
 
-This repository is built for people who need the raw text itself.
+If you build on, research, dissect, or write about Claude, and you have not read the prompt running behind it, you are shipping on vibes. This archive fixes that.
 
-### 🧑‍💻 AI & Machine Learning Engineers
-Building on Claude (API, Bedrock, Vertex, MCP)? Study how Anthropic structures refusal handling, tone control, formatting policy, and tool-use contracts in production, then apply the same patterns in your own system prompts. Diffing two dated versions of the same model (for example [Claude Fable 5, June 9 vs October 30, 2026](models/claude-fable-5/system-prompt.md)) shows exactly how Anthropic iterates on behavior.
+### AI & Machine Learning Engineers
+Stop tuning blind. This is the contract your model runs under. Study how Anthropic structures refusal handling, tone control, formatting policy, and tool-use in production, then steal the patterns for your own system prompts. Diff two dated versions of the same model ([Claude Fable 5, June 9 vs October 30, 2026](models/claude-fable-5/system-prompt.md)) and watch exactly how Anthropic iterates.
 
-### 🛡️ AI Safety & Alignment Researchers
-Primary source material for studying frontier refusal architecture: `<critical_child_safety_instructions>`, `<user_wellbeing>` crisis protocols, the `<anthropic_reminders>` classifier system, dual-use capability gating, and evenhandedness guidelines. Versioned across 23 models and 50 dated releases.
+### AI Safety & Alignment Researchers
+The pages everyone quotes from secondary sources, printed verbatim: `<critical_child_safety_instructions>`, `<user_wellbeing>` crisis protocols, the `<anthropic_reminders>` classifier system, dual-use capability gating, and evenhandedness guidelines. Fifty dated versions to study drift.
 
-### 🔍 Security Researchers & Red Teamers
-Analyze prompt-injection defenses, reminder-tag provenance rules, and data boundary enforcement. Understanding what the system prompt already forbids, and how, is the starting point for meaningful evaluation of agentic systems built on Claude.
+### Security Researchers & Red Teamers
+You cannot red team what you will not read. The injection defenses, reminder-tag provenance rules, and refusal boundaries are all in here, across every model Anthropic ships for consumers.
 
-### 🚀 Product Builders & Startup Founders
-Shipping a Claude-powered product? Learn what claude.ai gives users out of the box: artifact conventions, the memory system, web search behavior, citation rules, and artifact API calls. Your own scaffolding will compose cleanly instead of fighting the base behavior.
+### Product Builders & Startup Founders
+Know what claude.ai gives users out of the box before you rebuild it worse. Memory, artifacts, web search, citations, artifact API calls: the manual is right here.
 
-### 🎓 Students, Educators & AI-Literacy Researchers
-A citable, dated, primary source corpus for courses, papers, and policy work on how frontier AI assistants are behaviorally engineered.
+### Students, Educators & AI-Literacy Researchers
+Original source documents. Citable, dated, preserved. Teach how frontier assistants are engineered using the real text, not a blog post about it.
 
-### ✍️ Journalists & Tech Writers
-The original documents behind the coverage. Quote Anthropic's own words. Trace how safeguards and capabilities evolved from Claude 3 (July 2024) to the Mythos-class Fable 5 line (November 2026). The archive is preserved here even as Anthropic's own pages change.
+### Journalists & Tech Writers
+Quote Anthropic's own words instead of someone's paraphrase. Trace how safeguards grew from Claude 3 (July 2024) to the Mythos-class Fable 5 line (November 2026).
 
 ---
 
 ## Key Revelations
 
-The Claude Fable 5 archive (extracted from a live claude.ai session) revealed how Anthropic engineers its flagship model. Highlights, with full context in [`system-prompt/`](system-prompt/full-system-prompt.md):
+The Claude Fable 5 archive (extracted from a live claude.ai session) is the clearest window we have into how Anthropic builds its flagship model. Highlights below. Full context in [`system-prompt/`](system-prompt/full-system-prompt.md).
 
 ### Mythos-Class: A New Model Tier Above Opus
 
@@ -170,7 +174,7 @@ Claude's reliable knowledge cutoff is **end of January 2026**, with the current 
 
 ---
 
-## Repository Structure
+## Every File and Why It Is Here
 
 ```
 claude-systems-prompts/
@@ -199,7 +203,7 @@ claude-systems-prompts/
 ├── scripts/
 │   └── verify_signatures.py               ← Curation integrity validator
 └── assets/
-    └── claude-system-prompt-graphic.png  ← README hero banner
+    └── claude-system-prompt-graphic.png   ← README hero banner
 ```
 
 ---
@@ -252,9 +256,9 @@ System prompts are the invisible architecture behind AI behavior. This archive r
 
 This archive is the primary source document set for understanding how frontier AI models are shaped, and how that shaping changes over time.
 
-## Fun Quirks & Valuable Learnings
+## The Weird Rules Inside Claude
 
-Beyond the architecture, the prompt reveals some memorable rules that govern Claude's personality:
+These are real, verbatim rules from the prompt. Anthropic wrote them. Believe them.
 
 - **"Claudeception"**: Fable 5 is explicitly allowed to use the Anthropic API (via Sonnet 4) *from within* the interactive artifacts it generates.
 - **The Anti-Bullet-Point Crusade**: The prompt aggressively bans Claude from using bullet points or bold text in standard prose, noting it wants to avoid looking like stereotypical "AI slop." It even notes: *"Claude never uses bullet points when declining a task; the additional care helps soften the blow."*
@@ -298,9 +302,10 @@ MIT. See [LICENSE](LICENSE) for details. The archived prompt text itself is Anth
 
 <div align="center">
 
-## Why Star This Repo? ⭐
+## Why Star This Repo
 
-This repository is updated as Anthropic ships new prompt versions. By starring it, you get:
+Star this so you hear about it when Anthropic ships a new prompt version, or quietly rewrites the rules behind Claude. That is the whole deal. You also get:
+
 - Real-time updates when Anthropic publishes a new or updated system prompt for any Claude model.
 - Community-driven analysis and insights into frontier AI behavior.
 - JSON schemas and tool structures you can reverse-engineer for your own AI agents.

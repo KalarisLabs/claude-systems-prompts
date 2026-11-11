@@ -1,11 +1,5 @@
-# Byte-compiled / optimized / cache files
-__pycache__/
-*.py[cod]
-*$py.class
-
 # OS generated files
 .DS_Store
-.DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
@@ -18,7 +12,3 @@ Thumbs.db
 *.swp
 *.swo
 *~
-
-# Node
-node_modules/
-npm-debug.log*

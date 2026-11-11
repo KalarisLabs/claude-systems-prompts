@@ -44,7 +44,6 @@ This repo archives all of it. Every official prompt Anthropic ships for claude.a
 - **[`models/`](models/README.md)**: all 23 official system prompts, verbatim, with latest version dates, full version history per model, and direct links to the source page for every release
 - **[`system-prompt/`](system-prompt/full-system-prompt.md)**: deep dive on the flagship: the complete ~1,580-line Claude Fable 5 system prompt, tool definitions, and multi-part analysis
 - **[`highlights/`](highlights/surprising-revelations.md)**: the most surprising findings across the Claude prompt family
-- **[`scripts/`](scripts/verify_signatures.py)**: integrity verification for the archive's curation chain
 
 **Coverage:** 23 models. 50 published prompt versions referenced. July 2024 to November 2026. 100% verbatim from Anthropic's own pages.
 
@@ -200,8 +199,6 @@ claude-systems-prompts/
 │       └── fable5-vs-opus-comparison.md   ← Mythos-class vs Opus-class comparison
 ├── highlights/
 │   └── surprising-revelations.md          ← Most shocking/viral findings
-├── scripts/
-│   └── verify_signatures.py               ← Curation integrity validator
 └── assets/
     └── claude-system-prompt-graphic.png   ← README hero banner
 ```
@@ -235,11 +232,6 @@ claude-systems-prompts/
 **Quick highlights:** Jump to [`highlights/surprising-revelations.md`](highlights/surprising-revelations.md) for the most interesting findings.
 
 **Deep analysis:** The [`system-prompt/analysis/`](system-prompt/analysis) directory contains breakdowns of the model architecture, behavioral engineering, and a detailed [Fable 5 vs Opus 4.8 Comparison](system-prompt/analysis/fable5-vs-opus-comparison.md).
-
-**Verify Integrity:** Run the signature checker to confirm your clone's content and curation attributions are original:
-```bash
-python scripts/verify_signatures.py
-```
 
 ---
 

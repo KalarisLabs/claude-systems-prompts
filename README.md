@@ -4,7 +4,7 @@
 
 ### A verbatim, dated archive of all official Anthropic system prompts for Claude, from Claude Fable 5.2 back to Claude Haiku 3.
 
-![System Prompts hero image](assets/system-prompts-hero.png)
+![System Prompts hero image](assets/claude-system-prompt-graphic.png)
 
 *Curated & Extracted by **[Sayan Chowdhury](https://github.com/saynchowdhury)***
 
@@ -199,7 +199,7 @@ claude-systems-prompts/
 ├── scripts/
 │   └── verify_signatures.py               ← Curation integrity validator
 └── assets/
-    └── system-prompts-hero.png            ← README hero banner
+    └── claude-system-prompt-graphic.png  ← README hero banner
 ```
 
 ---

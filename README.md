@@ -2,7 +2,7 @@
 
 # Claude System Prompts: Every Official Claude System Prompt in One Repo
 
-### A verbatim, dated archive of all official Anthropic system prompts for Claude, from Claude Fable 5.2 back to Claude Haiku 3.
+### A dated, exact archive of all official Anthropic system prompts for Claude, from Claude Fable 5.2 back to Claude Haiku 3.
 
 ![System Prompts hero image](assets/claude-system-prompt-graphic.png)
 
@@ -17,7 +17,7 @@
 
 <br/>
 
-[![Share on X](https://img.shields.io/badge/Share-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/intent/tweet?text=Every%20official%20Claude%20system%20prompt%2C%20verbatim%20and%20dated%2C%20in%20one%20open-source%20repo.%2023%20models%20from%20Fable%205.2%20to%20Haiku%203.&url=https://github.com/KalarisLabs/claude-systems-prompts)
+[![Share on X](https://img.shields.io/badge/Share-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/intent/tweet?text=Every%20official%20Claude%20system%20prompt%2C%20copied%20exactly%2C%20in%20one%20open-source%20repo.%2023%20models%20from%20Fable%205.2%20to%20Haiku%203.&url=https://github.com/KalarisLabs/claude-systems-prompts)
 [![Share on LinkedIn](https://img.shields.io/badge/Share-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/KalarisLabs/claude-systems-prompts)
 [![Share on Reddit](https://img.shields.io/badge/Share-FF4500?style=flat&logo=reddit&logoColor=white)](https://reddit.com/submit?url=https://github.com/KalarisLabs/claude-systems-prompts&title=Claude%20System%20Prompts%3A%20every%20official%20Claude%20system%20prompt%20in%20one%20repo)
 [![Share on Hacker News](https://img.shields.io/badge/Share-FF6600?style=flat&logo=ycombinator&logoColor=white)](https://news.ycombinator.com/submitlink?u=https://github.com/KalarisLabs/claude-systems-prompts&t=Claude%20System%20Prompts%3A%20every%20official%20Claude%20system%20prompt%20in%20one%20repo)
@@ -37,15 +37,15 @@ Anthropic publishes Claude's system prompts on its own release notes pages. Twen
 
 That should bother you. The system prompt decides what Claude refuses, how it formats your answer, when it searches the web, what it makes of your legal questions, and how it responds to a mental health crisis. It is the most underrated document in AI right now, and it is free to read.
 
-This repo archives all of it. Every official prompt Anthropic ships for claude.ai and the Claude mobile apps, copied verbatim with dates and source links: Claude Fable 5.2 (November 9, 2026) back to Claude Haiku 3 (July 12, 2024). No paraphrase. No summaries. No "reportedly."
+This repo archives all of it. Every official prompt Anthropic ships for claude.ai and the Claude mobile apps, copied exactly, with dates and source links: Claude Fable 5.2 (November 9, 2026) back to Claude Haiku 3 (July 12, 2024). No paraphrase. No summaries. No "reportedly."
 
 **What is inside:**
 
-- **[`models/`](models/README.md)**: all 23 official system prompts, verbatim, with latest version dates, full version history per model, and direct links to the source page for every release
+- **[`models/`](models/README.md)**: all 23 official system prompts, copied exactly, with latest version dates, full version history per model, and direct links to the source page for every release
 - **[`system-prompt/`](system-prompt/full-system-prompt.md)**: deep dive on the flagship: the complete ~1,580-line Claude Fable 5 system prompt, tool definitions, and multi-part analysis
 - **[`highlights/`](highlights/surprising-revelations.md)**: the most surprising findings across the Claude prompt family
 
-**Coverage:** 23 models. 50 published prompt versions referenced. July 2024 to November 2026. 100% verbatim from Anthropic's own pages.
+**Coverage:** 23 models. 50 published prompt versions referenced. July 2024 to November 2026. Every file copied exactly from Anthropic's own pages.
 
 ---
 
@@ -93,7 +93,7 @@ If you build on, research, dissect, or write about Claude, and you have not read
 Stop tuning blind. This is the contract your model runs under. Study how Anthropic structures refusal handling, tone control, formatting policy, and tool-use in production, then steal the patterns for your own system prompts. Diff two dated versions of the same model ([Claude Fable 5, June 9 vs October 30, 2026](models/claude-fable-5/system-prompt.md)) and watch exactly how Anthropic iterates.
 
 ### AI Safety & Alignment Researchers
-The pages everyone quotes from secondary sources, printed verbatim: `<critical_child_safety_instructions>`, `<user_wellbeing>` crisis protocols, the `<anthropic_reminders>` classifier system, dual-use capability gating, and evenhandedness guidelines. Fifty dated versions to study drift.
+The pages everyone quotes from secondary sources, printed word for word: `<critical_child_safety_instructions>`, `<user_wellbeing>` crisis protocols, the `<anthropic_reminders>` classifier system, dual-use capability gating, and evenhandedness guidelines. Fifty dated versions to study drift.
 
 ### Security Researchers & Red Teamers
 You cannot red team what you will not read. The injection defenses, reminder-tag provenance rules, and refusal boundaries are all in here, across every model Anthropic ships for consumers.
@@ -182,7 +182,7 @@ claude-systems-prompts/
 ├── CONTRIBUTING.md
 ├── models/                                ← ALL official Claude system prompts
 │   ├── README.md                          ← Index of every model, version, and source
-│   ├── claude-fable-5-2/system-prompt.md  ← verbatim + latest version date
+│   ├── claude-fable-5-2/system-prompt.md  ← exact copy + latest version date
 │   ├── claude-fable-5-1/
 │   ├── claude-fable-5/
 │   ├── claude-opus-5-5/  claude-opus-5/  claude-opus-4-8/  ... claude-opus-3/
@@ -250,7 +250,7 @@ This archive is the primary source document set for understanding how frontier A
 
 ## The Weird Rules Inside Claude
 
-These are real, verbatim rules from the prompt. Anthropic wrote them. Believe them.
+These are the prompt's own rules, word for word. Anthropic wrote them. Believe them.
 
 - **"Claudeception"**: Fable 5 is explicitly allowed to use the Anthropic API (via Sonnet 4) *from within* the interactive artifacts it generates.
 - **The Anti-Bullet-Point Crusade**: The prompt aggressively bans Claude from using bullet points or bold text in standard prose, noting it wants to avoid looking like stereotypical "AI slop." It even notes: *"Claude never uses bullet points when declining a task; the additional care helps soften the blow."*
@@ -282,7 +282,7 @@ Please check our [Contributing Guidelines](CONTRIBUTING.md) and open an Issue us
 
 ## Disclaimer
 
-This repository is for **educational and research purposes**. The archived system prompts are the **intellectual property of Anthropic, PBC** and are reproduced verbatim from Anthropic's official release notes ([platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/overview)). The Claude Fable 5 deep dive was extracted from a publicly accessible claude.ai session. All rights to the original content belong to Anthropic. This repo does not claim ownership of Anthropic's intellectual property.
+This repository is for **educational and research purposes**. The archived system prompts are the **intellectual property of Anthropic, PBC** and are reproduced exactly from Anthropic's official release notes ([platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/overview)). The Claude Fable 5 deep dive was extracted from a publicly accessible claude.ai session. All rights to the original content belong to Anthropic. This repo does not claim ownership of Anthropic's intellectual property.
 
 ---
 

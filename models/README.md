@@ -1,8 +1,8 @@
 # Models: Claude System Prompt Index
 
-Every official system prompt Anthropic has published for Claude chat interfaces (claude.ai, the Claude iOS app, and the Claude Android app), verbatim, dated, and archived in one place. Each entry links to the archived prompt in this repo and to Anthropic's source page.
+Every official system prompt Anthropic has published for Claude chat interfaces (claude.ai, the Claude iOS app, and the Claude Android app), copied exactly, dated, and archived in one place. Each entry links to the archived prompt in this repo and to Anthropic's source page.
 
-> These system prompts do not apply to the Claude API. They are Anthropic, PBC intellectual property, reproduced here verbatim for educational and research purposes. See [LICENSE](../LICENSE).
+> These system prompts do not apply to the Claude API. They are Anthropic, PBC intellectual property, reproduced here exactly for educational and research purposes. See [LICENSE](../LICENSE).
 
 | Model | Latest version | Versions archived | Archived prompt | Source |
 |-------|----------------|-------------------|-----------------|--------|
@@ -34,13 +34,13 @@ Every official system prompt Anthropic has published for Claude chat interfaces 
 
 - **23 models** across the Claude 5, Claude 4, and Claude 3 families
 - **50 published versions** referenced across the source pages (this repo archives the latest dated version per model, and each file's header lists every version Anthropic has published on that page)
-- **2 models** (Claude Haiku 3.5, Claude Sonnet 3.5) ship two named variants on their latest date, `Text only` and `Text and images`. Both are archived verbatim.
+- **2 models** (Claude Haiku 3.5, Claude Sonnet 3.5) ship two named variants on their latest date, `Text only` and `Text and images`. Both are archived exactly.
 - **4 models** (Claude Fable 5.1, Claude Fable 5.2, Claude Opus 5.5, Claude Sonnet 5) contain inline `<example>` transcripts that the flat-markdown export splits into segments. The archive reassembles them into a single readable prompt.
 
 ## How to read this
 
 1. Each `system-prompt.md` header lists the model, the latest version date, every version date the source page publishes (newest first), the direct source URL, and the retrieval date.
-2. The prompt body is copied verbatim. No edits, no paraphrasing, no redactions. Anthropic placeholders like `{{currentDateTime}}` are their own runtime variables.
+2. The prompt body is copied exactly. No edits, no paraphrasing, no redactions. Anthropic placeholders like `{{currentDateTime}}` are their own runtime variables.
 3. When Anthropic publishes a newer version, open a [Prompt Update](../.github/ISSUE_TEMPLATE/prompt_update.yml) issue or a PR replacing the archived file.
 
 *Index generated 2026-11-12 from the official release-notes pages at platform.claude.com.*

@@ -51,7 +51,7 @@ Fable 5 is designed to:
 3. Manage its 1,000,000 token context window over extremely long horizons.
 
 ### API-in-Artifacts ("Claudeception")
-Fable 5 introduces the ability to make Anthropic API calls *from within* the Artifacts it generates, typically using Sonnet 4 as the internal fast model. This allows Fable 5 to build self-contained, AI-powered interactive applications—a capability not supported in the Opus 4.8 environment.
+Fable 5 introduces the ability to make Anthropic API calls *from within* the Artifacts it generates, typically using Sonnet 4 as the internal fast model. This allows Fable 5 to build self-contained, AI-powered interactive applications, a capability not supported in the Opus 4.8 environment.
 
 ---
 

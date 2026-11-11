@@ -1,14 +1,14 @@
-# Claude Sonnet 4.5 — System Prompt
+# Claude Sonnet 4.5 - System Prompt
 
 - **Model:** Claude Sonnet 4.5
 - **Model slug:** `claude-sonnet-4-5`
 - **Latest version:** January 18, 2026
 - **All versions published on the source page (newest first):** January 18, 2026, November 19, 2025, September 29, 2025
-- **Source:** [Anthropic system prompt release notes — Claude Sonnet 4.5](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4-5)
-- **Applies to:** Claude chat interfaces — claude.ai, the Claude iOS app, and the Claude Android app (these system prompts do not apply to the Claude API)
-- **Retrieved:** 2026-11-12 — copied verbatim from Anthropic's official documentation. Placeholders such as `{{currentDateTime}}` are Anthropic's own runtime variables.
+- **Source:** [Anthropic system prompt release notes - Claude Sonnet 4.5](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4-5)
+- **Applies to:** Claude chat interfaces - claude.ai, the Claude iOS app, and the Claude Android app (these system prompts do not apply to the Claude API)
+- **Retrieved:** 2026-11-12 - copied verbatim from Anthropic's official documentation. Placeholders such as `{{currentDateTime}}` are Anthropic's own runtime variables.
 
-> This system prompt is the intellectual property of Anthropic, PBC. It is reproduced verbatim from Anthropic's official release notes for educational and research purposes only. It is licensed separately from this repository — see the note in [LICENSE](../../LICENSE).
+> This system prompt is the intellectual property of Anthropic, PBC. It is reproduced verbatim from Anthropic's official release notes for educational and research purposes only. It is licensed separately from this repository - see the note in [LICENSE](../../LICENSE).
 
 ```text
 <claude_behavior>

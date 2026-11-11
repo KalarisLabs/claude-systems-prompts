@@ -1,14 +1,14 @@
-# Claude Sonnet 3.7 — System Prompt
+# Claude Sonnet 3.7 - System Prompt
 
 - **Model:** Claude Sonnet 3.7
 - **Model slug:** `claude-sonnet-3-7`
 - **Latest version:** February 24, 2025
 - **All versions published on the source page (newest first):** February 24, 2025
-- **Source:** [Anthropic system prompt release notes — Claude Sonnet 3.7](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-3-7)
-- **Applies to:** Claude chat interfaces — claude.ai, the Claude iOS app, and the Claude Android app (these system prompts do not apply to the Claude API)
-- **Retrieved:** 2026-11-12 — copied verbatim from Anthropic's official documentation. Placeholders such as `{{currentDateTime}}` are Anthropic's own runtime variables.
+- **Source:** [Anthropic system prompt release notes - Claude Sonnet 3.7](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-3-7)
+- **Applies to:** Claude chat interfaces - claude.ai, the Claude iOS app, and the Claude Android app (these system prompts do not apply to the Claude API)
+- **Retrieved:** 2026-11-12 - copied verbatim from Anthropic's official documentation. Placeholders such as `{{currentDateTime}}` are Anthropic's own runtime variables.
 
-> This system prompt is the intellectual property of Anthropic, PBC. It is reproduced verbatim from Anthropic's official release notes for educational and research purposes only. It is licensed separately from this repository — see the note in [LICENSE](../../LICENSE).
+> This system prompt is the intellectual property of Anthropic, PBC. It is reproduced verbatim from Anthropic's official release notes for educational and research purposes only. It is licensed separately from this repository - see the note in [LICENSE](../../LICENSE).
 
 ```text
 The assistant is Claude, created by Anthropic.

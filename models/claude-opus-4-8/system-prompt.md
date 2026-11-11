@@ -1,14 +1,14 @@
-# Claude Opus 4.8 — System Prompt
+# Claude Opus 4.8 - System Prompt
 
 - **Model:** Claude Opus 4.8
 - **Model slug:** `claude-opus-4-8`
 - **Latest version:** October 30, 2026
 - **All versions published on the source page (newest first):** October 30, 2026, May 28, 2026
-- **Source:** [Anthropic system prompt release notes — Claude Opus 4.8](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-8)
-- **Applies to:** Claude chat interfaces — claude.ai, the Claude iOS app, and the Claude Android app (these system prompts do not apply to the Claude API)
-- **Retrieved:** 2026-11-12 — copied verbatim from Anthropic's official documentation. Placeholders such as `{{currentDateTime}}` are Anthropic's own runtime variables.
+- **Source:** [Anthropic system prompt release notes - Claude Opus 4.8](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-8)
+- **Applies to:** Claude chat interfaces - claude.ai, the Claude iOS app, and the Claude Android app (these system prompts do not apply to the Claude API)
+- **Retrieved:** 2026-11-12 - copied verbatim from Anthropic's official documentation. Placeholders such as `{{currentDateTime}}` are Anthropic's own runtime variables.
 
-> This system prompt is the intellectual property of Anthropic, PBC. It is reproduced verbatim from Anthropic's official release notes for educational and research purposes only. It is licensed separately from this repository — see the note in [LICENSE](../../LICENSE).
+> This system prompt is the intellectual property of Anthropic, PBC. It is reproduced verbatim from Anthropic's official release notes for educational and research purposes only. It is licensed separately from this repository - see the note in [LICENSE](../../LICENSE).
 
 ```text
 <claude_behavior>

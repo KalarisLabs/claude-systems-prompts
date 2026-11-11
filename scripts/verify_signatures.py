@@ -3,7 +3,7 @@
 Repository Integrity and Curation Verification Script
 Author: Sayan Chowdhury (https://github.com/saynchowdhury)
 
-This script validates the integrity of the Claude Fable 5 System Prompt Archive by
+This script validates the integrity of the Claude System Prompts Archive by
 verifying that all file signatures, watermarks, and author attributions are intact.
 """
 
@@ -63,7 +63,7 @@ def verify_file(filepath):
 
 def main():
     print("=" * 60)
-    print("Claude Fable 5 System Prompt Archive - Integrity Verification")
+    print("Claude System Prompts Archive - Integrity Verification")
     print("=" * 60)
     
     # Get base directory (project root)
@@ -83,7 +83,7 @@ def main():
     else:
         print("[FAIL] FAILURE: Curation signatures have been altered, removed, or are missing.")
         print("Please verify the source of this clone or restore the original files from:")
-        print("https://github.com/saynchowdhury/claude-fable-5-system-prompt")
+        print("https://github.com/KalarisLabs/claude-systems-prompts")
         sys.exit(1)
 
 if __name__ == "__main__":

@@ -1,31 +1,31 @@
 <div align="center">
 
-# Claude Fable 5 System Prompt
+# Claude System Prompts — Every Official Claude System Prompt in One Repo
 
-### The Complete Leaked System Prompt from Anthropic's Most Intelligent Model
+### The open-source archive of all official Anthropic system prompts for Claude — verbatim, dated, and sourced — from Claude Fable 5.2 back to Claude Haiku 3.
 
-![Claude Fable 5 Hero Banner](assets/fable5-hero.png)
+![System Prompts Hero — Claude System Prompts archive](assets/system-prompts-hero.png)
 
 *Curated & Extracted by **[Sayan Chowdhury](https://github.com/saynchowdhury)***
 
-[![Last Updated](https://img.shields.io/badge/Updated-June%202026-blue)]()
-[![Prompt Length](https://img.shields.io/badge/Prompt-~1580%20lines-orange)]()
+[![Last Updated](https://img.shields.io/badge/Updated-November%202026-blue)]()
+[![Models Archived](https://img.shields.io/badge/Models-23%20Archived-orange)]()
 [![License](https://img.shields.io/badge/License-MIT-green)]()
-[![Stars](https://img.shields.io/github/stars/saynchowdhury/claude-fable-5-system-prompt?style=social)]()
-[![Views](https://api.visitorbadge.io/api/VisitorHit?user=saynchowdhury&repo=claude-fable-5-system-prompt&label=views&countColor=%23222222&labelColor=%23555555)]()
-[![Live Views](https://visitor-badge.laobi.icu/badge?page_id=saynchowdhury.claude-fable-5-system-prompt&left_text=live%20views)](https://github.com/saynchowdhury/claude-fable-5-system-prompt)
+[![Stars](https://img.shields.io/github/stars/KalarisLabs/claude-systems-prompts?style=social)]()
+[![Views](https://api.visitorbadge.io/api/VisitorHit?user=KalarisLabs&repo=claude-systems-prompts&label=views&countColor=%23222222&labelColor=%23555555)]()
+[![Live Views](https://visitor-badge.laobi.icu/badge?page_id=KalarisLabs.claude-systems-prompts&left_text=live%20views)](https://github.com/KalarisLabs/claude-systems-prompts)
 
 <br/>
 
-[![Share on X](https://img.shields.io/badge/Share-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/intent/tweet?text=The%20complete%20Claude%20Fable%205%20system%20prompt%20has%20been%20leaked%20—%20revealing%20a%20new%20Mythos%20model%20tier%20above%20Opus%2C%2022%2B%20tools%2C%20and%20%22Claudeception%22%20(API%20inside%20Artifacts).%20Full%20analysis%3A&url=https://github.com/saynchowdhury/claude-fable-5-system-prompt)
-[![Share on LinkedIn](https://img.shields.io/badge/Share-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/saynchowdhury/claude-fable-5-system-prompt)
-[![Share on Reddit](https://img.shields.io/badge/Share-FF4500?style=flat&logo=reddit&logoColor=white)](https://reddit.com/submit?url=https://github.com/saynchowdhury/claude-fable-5-system-prompt&title=The%20complete%20Claude%20Fable%205%20system%20prompt)
-[![Share on Hacker News](https://img.shields.io/badge/Share-FF6600?style=flat&logo=ycombinator&logoColor=white)](https://news.ycombinator.com/submitlink?u=https://github.com/saynchowdhury/claude-fable-5-system-prompt&t=The%20complete%20Claude%20Fable%205%20system%20prompt)
+[![Share on X](https://img.shields.io/badge/Share-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/intent/tweet?text=Every%20official%20Claude%20system%20prompt%2C%20verbatim%20and%20dated%2C%20in%20one%20open-source%20repo%20—%2023%20models%20from%20Fable%205.2%20to%20Haiku%203.&url=https://github.com/KalarisLabs/claude-systems-prompts)
+[![Share on LinkedIn](https://img.shields.io/badge/Share-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/KalarisLabs/claude-systems-prompts)
+[![Share on Reddit](https://img.shields.io/badge/Share-FF4500?style=flat&logo=reddit&logoColor=white)](https://reddit.com/submit?url=https://github.com/KalarisLabs/claude-systems-prompts&title=Claude%20System%20Prompts%20%E2%80%94%20every%20official%20Claude%20system%20prompt%20in%20one%20repo)
+[![Share on Hacker News](https://img.shields.io/badge/Share-FF6600?style=flat&logo=ycombinator&logoColor=white)](https://news.ycombinator.com/submitlink?u=https://github.com/KalarisLabs/claude-systems-prompts&t=Claude%20System%20Prompts%20%E2%80%94%20every%20official%20Claude%20system%20prompt%20in%20one%20repo)
 [![Connect on LinkedIn](https://img.shields.io/badge/Connect_with_Author-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sayanchowdhuryai/)
 
-*The complete Claude Fable 5 (Mythos-class) system prompt archive. Discover Anthropic's agentic AI rules, tools, and secrets.*
+*The complete Claude system prompt archive: Anthropic's prompts for claude.ai, the Claude iOS app, and the Claude Android app — plus original analysis of how Claude is engineered to think, refuse, write, and use tools.*
 
-[Key Revelations](#key-revelations) | [Full Prompt](system-prompt/full-system-prompt.md) | [Analysis](system-prompt/analysis/key-findings.md) | [Fable 5 vs Opus 4.8](system-prompt/analysis/fable5-vs-opus-comparison.md) | [Highlights](highlights/surprising-revelations.md)
+[Models at a Glance](#models-at-a-glance) | [Who Is This For?](#who-is-this-for) | [Key Revelations](#key-revelations) | [Full Fable 5 Prompt](system-prompt/full-system-prompt.md) | [Analysis](system-prompt/analysis/key-findings.md) | [Highlights](highlights/surprising-revelations.md)
 
 </div>
 
@@ -33,13 +33,82 @@
 
 ## What Is This?
 
-This repository contains the **complete system prompt** (~1,580 lines, ~120KB) for **Claude Fable 5**, Anthropic's most capable generally-available AI model as of June 2026. The prompt was extracted from a live claude.ai session and reveals the inner architecture, behavioral guidelines, tool definitions, and safety frameworks that govern how Claude Fable 5 thinks, responds, and interacts.
+**Claude System Prompts** is the single open-source home for every system prompt Anthropic publishes for its consumer Claude products. This repository archives **23 official Claude system prompts** — the full lineup, from Anthropic's newest Mythos-class models (**Claude Fable 5.2**) back to **Claude Haiku 3** — copied **verbatim** from [Anthropic's official release notes](https://platform.claude.com/docs/en/release-notes/system-prompts/overview), dated, and source-linked.
 
-This is the most detailed look yet into how Anthropic engineers its flagship model's behavior.
+System prompts are the invisible instruction layer that shapes how an AI model behaves before you type a single word. They encode refusal policy, tone, formatting, tool use, safety architecture, and model-specific caveats. Anthropic now publishes these prompts for claude.ai and the Claude mobile apps — and this repo collects them all in one place, alongside original research, analysis, and tooling.
+
+**What's inside:**
+
+- **[`models/`](models/README.md)** — all 23 official system prompts, verbatim, with latest version dates, full version history per model, and direct links to the source page for every release
+- **[`system-prompt/`](system-prompt/full-system-prompt.md)** — deep dive on the flagship: the complete ~1,580-line Claude Fable 5 system prompt, tool definitions, and multi-part analysis
+- **[`highlights/`](highlights/surprising-revelations.md)** — the most surprising findings across the Claude prompt family
+- **[`scripts/`](scripts/verify_signatures.py)** — integrity verification for the archive's curation chain
+
+**Coverage at a glance:** 23 models · 50 published prompt versions referenced · July 2024 → November 2026 · 100% verbatim from official Anthropic sources.
+
+---
+
+## Models at a Glance
+
+Every archived prompt lives at `models/<model>/system-prompt.md`. Each file is verbatim, carries its latest version date, lists every version Anthropic has published on that model's page (newest first), and links the canonical source. See the full index with per-model version history in **[models/README.md](models/README.md)**.
+
+| Model | Latest version | Archived prompt | Source (Anthropic) |
+|-------|----------------|-----------------|--------------------|
+| **Claude Fable 5.2** | November 9, 2026 | [system-prompt.md](models/claude-fable-5-2/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5-2) |
+| **Claude Haiku 5.5** | October 26, 2026 | [system-prompt.md](models/claude-haiku-5-5/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-5-5) |
+| **Claude Sonnet 5.5** | October 27, 2026 | [system-prompt.md](models/claude-sonnet-5-5/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-5-5) |
+| **Claude Opus 5.5** | October 27, 2026 | [system-prompt.md](models/claude-opus-5-5/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-5-5) |
+| **Claude Fable 5.1** | October 30, 2026 | [system-prompt.md](models/claude-fable-5-1/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5-1) |
+| **Claude Opus 5** | October 30, 2026 | [system-prompt.md](models/claude-opus-5/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-5) |
+| **Claude Sonnet 5** | October 30, 2026 | [system-prompt.md](models/claude-sonnet-5/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-5) |
+| **Claude Fable 5** | October 30, 2026 | [system-prompt.md](models/claude-fable-5/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5) |
+| **Claude Opus 4.8** | October 30, 2026 | [system-prompt.md](models/claude-opus-4-8/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-8) |
+| **Claude Opus 4.7** | October 30, 2026 | [system-prompt.md](models/claude-opus-4-7/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-7) |
+| **Claude Sonnet 4.6** | October 14, 2026 | [system-prompt.md](models/claude-sonnet-4-6/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4-6) |
+| **Claude Opus 4.6** | October 30, 2026 | [system-prompt.md](models/claude-opus-4-6/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-6) |
+| **Claude Opus 4.5** | January 18, 2026 | [system-prompt.md](models/claude-opus-4-5/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-5) |
+| **Claude Haiku 4.5** | October 23, 2026 | [system-prompt.md](models/claude-haiku-4-5/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-4-5) |
+| **Claude Sonnet 4.5** | January 18, 2026 | [system-prompt.md](models/claude-sonnet-4-5/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4-5) |
+| **Claude Opus 4.1** | August 5, 2025 | [system-prompt.md](models/claude-opus-4-1/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-1) |
+| **Claude Opus 4** | August 5, 2025 | [system-prompt.md](models/claude-opus-4/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4) |
+| **Claude Sonnet 4** | August 5, 2025 | [system-prompt.md](models/claude-sonnet-4/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4) |
+| **Claude Sonnet 3.7** | February 24, 2025 | [system-prompt.md](models/claude-sonnet-3-7/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-3-7) |
+| **Claude Sonnet 3.5** | November 22, 2024 | [system-prompt.md](models/claude-sonnet-3-5/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-3-5) |
+| **Claude Haiku 3.5** | October 22, 2024 | [system-prompt.md](models/claude-haiku-3-5/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-3-5) |
+| **Claude Opus 3** | July 12, 2024 | [system-prompt.md](models/claude-opus-3/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-3) |
+| **Claude Haiku 3** | July 12, 2024 | [system-prompt.md](models/claude-haiku-3/system-prompt.md) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-3) |
+
+> Note: These are the system prompts for claude.ai and the Claude mobile apps — they do **not** apply to the Claude API. When Anthropic publishes a newer version of any prompt, this repo is updated to match — see [Contributing](CONTRIBUTING.md).
+
+---
+
+## Who Is This For?
+
+This repository is built for the people who actually need the raw text — not summaries, not secondhand leaks, the source documents themselves:
+
+### 🧑‍💻 AI & Machine Learning Engineers
+Building on Claude (API, Bedrock, Vertex, MCP)? Study how Anthropic structures refusal handling, tone control, formatting policy, and tool-use contracts in production, then apply the same patterns in your own system prompts. Diffing two versions of the same model (e.g. [Claude Fable 5 — October 30, 2026](models/claude-fable-5/system-prompt.md) vs. June 9, 2026) shows exactly how Anthropic iterates on behavior.
+
+### 🛡️ AI Safety & Alignment Researchers
+Primary-source material for studying frontier refusal architecture: `<critical_child_safety_instructions>`, `<user_wellbeing>` crisis protocols, the `<anthropic_reminders>` classifier system, dual-use capability gating, and evenhandedness guidelines — versioned across 23 models and 50 dated releases.
+
+### 🔍 Security Researchers & Red Teamers
+Analyze prompt-injection defenses, reminder-tag provenance rules, and data-boundary enforcement. Understanding what the system prompt already forbids (and how) is the starting point for meaningful evaluation of agentic systems built on Claude.
+
+### 🚀 Product Builders & Startup Founders
+Shipping a Claude-powered product? Learn what claude.ai gives users out of the box — artifact conventions, memory system, web-search behavior, citation rules, artifact API calls — so your own scaffolding composes cleanly instead of fighting the base behavior.
+
+### 🎓 Students, Educators & AI-Literacy Researchers
+A citable, dated, primary-source corpus for courses, papers, and policy work on how frontier AI assistants are behaviorally engineered — not folklore about them.
+
+### ✍️ Journalists & Tech Writers
+The original documents behind the coverage. Quote Anthropic's own words, trace how safeguards and capabilities evolved from Claude 3 (July 2024) to the Mythos-class Fable 5 line (November 2026), and link readers to sources that are preserved even as Anthropic's pages change.
 
 ---
 
 ## Key Revelations
+
+The Claude Fable 5 archive (extracted from a live claude.ai session) revealed the most detailed look yet at how Anthropic engineers its flagship model. Highlights — full context in [`system-prompt/`](system-prompt/full-system-prompt.md):
 
 ### Mythos-Class: A New Model Tier Above Opus
 
@@ -104,10 +173,20 @@ Claude's reliable knowledge cutoff is confirmed as **end of January 2026**, with
 ## Repository Structure
 
 ```
-claude-fable-5-system-prompt/
+claude-systems-prompts/
 ├── README.md                              ← You are here
-├── LICENSE                                ← MIT License
-├── system-prompt/
+├── LICENSE                                ← MIT License (prompt content © Anthropic, PBC)
+├── CONTRIBUTING.md
+├── models/                                ← ALL official Claude system prompts (NEW)
+│   ├── README.md                          ← Index of every model, version & source
+│   ├── claude-fable-5-2/system-prompt.md  ← verbatim + latest version date
+│   ├── claude-fable-5-1/
+│   ├── claude-fable-5/
+│   ├── claude-opus-5-5/  claude-opus-5/  claude-opus-4-8/  ... claude-opus-3/
+│   ├── claude-sonnet-5-5/ claude-sonnet-5/ claude-sonnet-4-6/ ... claude-sonnet-3-5/
+│   ├── claude-haiku-5-5/  claude-haiku-4-5/  claude-haiku-3-5/  claude-haiku-3/
+│   └── ...                                ← 23 models, 50 published versions indexed
+├── system-prompt/                         ← Fable 5 deep dive (original analysis)
 │   ├── full-system-prompt.md              ← Complete formatted system prompt
 │   ├── tool-definitions.md                ← All 22+ tool schemas extracted
 │   └── analysis/
@@ -120,12 +199,14 @@ claude-fable-5-system-prompt/
 ├── scripts/
 │   └── verify_signatures.py               ← Curation integrity validator
 └── assets/
-    └── fable5-hero.png                    ← Banner image asset
+    ├── system-prompts-hero.png            ← README hero banner
+    ├── fable5-hero.png                    ← Original Fable 5 banner
+    └── social-preview.png
 ```
 
 ---
 
-## Table of Contents — System Prompt
+## Table of Contents — Fable 5 System Prompt
 
 | Section | Description |
 |---------|-------------|
@@ -145,7 +226,9 @@ claude-fable-5-system-prompt/
 
 ## How to Use This Repo
 
-**Read the full prompt:** Start with [`system-prompt/full-system-prompt.md`](system-prompt/full-system-prompt.md) for the complete, formatted system prompt with section anchors.
+**Browse any model:** Start with **[models/README.md](models/README.md)** — every official Claude system prompt, indexed by model and version date.
+
+**Read the flagship prompt:** [`system-prompt/full-system-prompt.md`](system-prompt/full-system-prompt.md) for the complete, formatted Claude Fable 5 system prompt with section anchors.
 
 **Quick highlights:** Jump to [`highlights/surprising-revelations.md`](highlights/surprising-revelations.md) for the most interesting findings.
 
@@ -160,15 +243,16 @@ python scripts/verify_signatures.py
 
 ## Why This Matters
 
-System prompts are the invisible architecture behind AI behavior. This prompt reveals:
+System prompts are the invisible architecture behind AI behavior. This archive reveals:
 
 1. **How Anthropic engineers personality** — from warm tone requirements to anti-bullet-point philosophy
 2. **The Mythos tier system** — a previously unknown model hierarchy above Opus
 3. **Recursive AI architecture** — Claude calling Claude inside Artifacts
 4. **Unprecedented safety nuance** — mental health guidelines more detailed than most clinical protocols
 5. **The agentic future** — Cowork as a meta-agent orchestrating Claude Code, Chrome, Excel, and PowerPoint
+6. **How safeguards evolve** — track `<user_wellbeing>` and refusal policy changes across 50 dated versions, from Claude 3 to Fable 5.2
 
-This is a primary source document for understanding how frontier AI models are shaped.
+This is a primary source document set for understanding how frontier AI models are shaped — and how that shaping changes over time.
 
 ## Fun Quirks & Valuable Learnings
 
@@ -184,27 +268,33 @@ For the full list of deep dives, see [`highlights/surprising-revelations.md`](hi
 
 ---
 
+## Keywords & Topics
+
+Claude system prompt · Anthropic system prompt · Claude system prompt archive · claude.ai system prompt · Claude Opus system prompt · Claude Sonnet system prompt · Claude Haiku system prompt · Claude Fable 5 system prompt · Claude Fable 5.2 · Claude Mythos · Mythos-class model · Anthropic Claude behavioral guidelines · prompt engineering for Claude · AI safety research · frontier model system prompt · Claude API vs claude.ai prompts · open-source AI prompt archive
+
+---
+
 ## Community & Contributing
 
-We want to make this repository the premier research hub for Anthropic's Mythos-class models.
-Found a novel jailbreak, a behavioral quirk, or want to add an interactive tool? 
+We want to make this repository the premier research hub for Anthropic's Claude models.
+Found a novel jailbreak, a behavioral quirk, a new prompt version, or want to add an interactive tool?
 
 Please check our [Contributing Guidelines](CONTRIBUTING.md) and open an Issue using our templates, or submit a PR with your analysis. We actively welcome community discussions!
 
 ### Contributors
-[![Contributors](https://contrib.rocks/image?repo=saynchowdhury/claude-fable-5-system-prompt)](https://github.com/saynchowdhury/claude-fable-5-system-prompt/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=KalarisLabs/claude-systems-prompts)](https://github.com/KalarisLabs/claude-systems-prompts/graphs/contributors)
 
 ---
 
 ## Disclaimer
 
-This repository is for **educational and research purposes**. The system prompt was extracted from a publicly accessible claude.ai session. All rights to the original content belong to Anthropic. This repo does not claim ownership of Anthropic's intellectual property.
+This repository is for **educational and research purposes**. The archived system prompts are the **intellectual property of Anthropic, PBC** and are reproduced verbatim from Anthropic's official release notes ([platform.claude.com](https://platform.claude.com/docs/en/release-notes/system-prompts/overview)). The Claude Fable 5 deep dive was extracted from a publicly accessible claude.ai session. All rights to the original content belong to Anthropic. This repo does not claim ownership of Anthropic's intellectual property.
 
 ---
 
 ## License
 
-MIT — See [LICENSE](LICENSE) for details.
+MIT — See [LICENSE](LICENSE) for details. (The archived prompt text itself is Anthropic, PBC intellectual property and is not covered by the MIT grant — see the note in the LICENSE file.)
 
 ---
 
@@ -213,17 +303,15 @@ MIT — See [LICENSE](LICENSE) for details.
 ## Why Star This Repo? ⭐
 
 Unlike static text files, this repository is **living documentation**. By starring it, you get:
-- Real-time updates when Anthropic pushes changes to the Mythos system prompts.
+- Real-time updates when Anthropic publishes new or updated system prompts for any Claude model.
 - Community-driven analysis and insights into frontier AI behavior.
 - JSON schemas and tool structures you can reverse-engineer for your own AI agents.
 
 ---
 
-<div align="center">
-
 **If you found this interesting, consider starring the repo!**
 
-[![Star History Chart](https://api.star-history.com/svg?repos=saynchowdhury/claude-fable-5-system-prompt&type=Date)](https://star-history.com/#saynchowdhury/claude-fable-5-system-prompt&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=KalarisLabs/claude-systems-prompts&type=Date)](https://star-history.com/#KalarisLabs/claude-systems-prompts&Date)
 
 
 

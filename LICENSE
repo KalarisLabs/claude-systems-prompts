@@ -20,6 +20,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Note: The system prompt content archived in this repository is the intellectual
-property of Anthropic, PBC. This repository is maintained for educational and
-research purposes only.
+Note: The system prompt content archived in this repository (including everything under `models/` and `system-prompt/`) is the intellectual property of Anthropic, PBC. This repository is maintained for educational and research purposes only.

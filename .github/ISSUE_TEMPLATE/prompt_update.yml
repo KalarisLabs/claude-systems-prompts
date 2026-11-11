@@ -1,5 +1,5 @@
 name: Prompt Update
-description: Report a suspected update or stealth change to the Claude Fable 5 system prompt.
+description: Report a suspected update or stealth change to any archived Claude system prompt.
 title: "[UPDATE]: "
 labels: ["prompt-update"]
 assignees: ["saynchowdhury"]
@@ -7,7 +7,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        Did Anthropic update the prompt? Let us know so we can keep the archive current.
+        Did Anthropic update one of the archived prompts? Let us know which model so we can keep the archive current.
+  - type: input
+    id: model
+    attributes:
+      label: Model
+      description: Which Claude model was updated? (e.g., Claude Fable 5.2, claude-opus-4-8)
+      placeholder: "e.g., Claude Sonnet 4.6"
+    validations:
+      required: true
   - type: input
     id: date_observed
     attributes:
@@ -27,6 +35,6 @@ body:
     id: extraction_method
     attributes:
       label: Extraction Method
-      description: How did you verify this change? (e.g., specific jailbreak prompt, Artifacts API leak)
+      description: How did you verify this change? (e.g., the platform.claude.com release-notes page, a specific jailbreak prompt, or an Artifacts API leak)
     validations:
       required: true

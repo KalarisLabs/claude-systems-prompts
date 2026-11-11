@@ -107,6 +107,8 @@ Original source documents. Citable, dated, preserved. Teach how frontier assista
 ### Journalists & Tech Writers
 Quote Anthropic's own words instead of someone's paraphrase. Trace how safeguards grew from Claude 3 (July 2024) to the Mythos-class Fable 5 line (November 2026).
 
+For the same model family recorded the other way round, off the wire rather than from a live session, see [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault/tree/main/Claude-Code): its 2026-09-02 `claude-fable-5-1` captures on Claude Code `2.1.258.18d` hold 26,131 characters and 35 tool declarations interactively and 20,806 and 29 under `claude -p`, as sizes of the scrubbed files, each with the command that reproduces it. The product surface and the chat surface do not get the same prompt, and the archive keeps them apart.
+
 ---
 
 ## Key Revelations
